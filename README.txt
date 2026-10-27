@@ -26,8 +26,7 @@ Run above steps from any terminal that you will use
 Build container:
 -----------------
 
-# TODO : Requirement 1.1
-docker build -t <> .
+docker build -t darrenzwc-assignment3:latest .
 
 
 Install the greetings helm chart:
@@ -100,5 +99,3 @@ kubectl greetings show greetings1
 kubectl greetings show greetings2
 kubectl greetings delete greetings1 greetings1
 kubectl greetings delete greetings2 greetings2
-
-

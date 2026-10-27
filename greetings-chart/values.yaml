@@ -1,4 +1,7 @@
 # Requirement 2.1
-image: ""
+image: "darrenzwc-assignment3:latest"
 
-# Add variables (Requirement 2.2)
+# These are supplied at install/upgrade time, for example with --set.
+replicas: 1
+greeting: "Hello from greetings"
+nodePort: 30001
